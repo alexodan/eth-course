@@ -6,6 +6,7 @@ import "hardhat/console.sol";
 contract Ownable {
     // address tiene balance, metodos, etc..
     address public owner;
+    // address payable public owner; // para que pueda recibir plata
 
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
